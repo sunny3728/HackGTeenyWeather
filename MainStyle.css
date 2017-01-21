@@ -41,12 +41,16 @@ p {
 	font-size: 100%;
 }
 
-
+body {
+    background-color: lightblue;
+}
 
 #button {
-	background-color: #f44336;
+	background-color: darkblue;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 #zipcodeText {
