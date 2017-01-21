@@ -9,19 +9,39 @@ h1 {
 }
 p {
 	color: purple;
-	text-align: center;
 	font-weight: bolder;
 	font-size: 200%;
 }
-form {
-	text-align: center;
-}
+
 
 #yourCity {
-	color: green;
+	color: black;
 	font-weight: bold;
 	font-size: 100%;
 }
+#yourState {
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+}
+#temperature {
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+}
+#chanceOfRain {
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+}
+#whatToWear {
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+
+
 #button {
 	background-color: #f44336;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
