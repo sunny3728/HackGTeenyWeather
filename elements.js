@@ -1,3 +1,13 @@
+function buttonPress() {
+    var buttonPress = index.getElementByID("button");
+    buttonPress.attachEvent("onclick", myFunction);
+}
+
+function getData() {
+    $.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/30332.json", "", myFunction);
+
+}
+
 function myFunction(data) {
     var city = data.location.city;
     var state = data.location.state;
@@ -31,5 +41,4 @@ function printStuff(data) {
 
 }
 
-$.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/30332.json", "", myFunction);
-
+buttonPress();
