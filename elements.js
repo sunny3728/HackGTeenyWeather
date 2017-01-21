@@ -1,10 +1,11 @@
-function buttonPress() {
-    var buttonPress = index.getElementByID("button");
-    buttonPress.attachEvent("onclick", myFunction);
-}
+function main(){
+
+    var buttonPress = document.getElementById("button");
+    buttonPress.addEventListener("click", getData);
 
 function getData() {
-    $.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/30332.json", "", myFunction);
+    var myZip = $("#zipcodeText").val()
+    $.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/" + myZip + ".json", "", myFunction);
 
 }
 
@@ -40,5 +41,7 @@ function printStuff(data) {
 
 
 }
+}
 
-buttonPress();
+$(document).ready(main);
+
