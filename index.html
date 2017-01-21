@@ -2,35 +2,36 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="MainStyle.css">
+    <link rel="stylesheet" type="text/css" href="MainStyle.css">
 
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="elements.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="elements.js"></script>
 
-<title> Today's Weather! </title>
+    <title> Today's Weather! </title>
 </head>
 
 
 <body backgroud = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_mpe6wFm_hIx42C5TW6SU0V-xMCfsyrH_ASkCvB5nOM1KZMrSQ">
-<div id="backgroundImage">
-<h1> Today's Weather! </h1>
-<p id ="Zipcode">	Enter your zipcode: <br>
-	<input id = "zipcodeText" type="text"><br>
+    <h1> Today's Weather! </h1>
+    <p id ="Zipcode">	Enter your zipcode: <br>
+	   <input id = "zipcodeText" type="text"><br>
 
+    <button id = "button" type="button"> Tell me what it's like today! </button>
 
-<button id = "button" type="button"> Tell me what it's like today! </button>
-<p> You are in : <span id="yourCity"> </span> </p>
-<p> Which is in : <span id = "yourState"> </span> </p>
-<p> Temperature for today : <span id = "temperature"> </span> </p>
+    <img id = "rainy" src = "rain.png" height = 240 width = 350>
+    <img id = "cloudy" src = "cloudy.png" height = 240 width = 350>
+    <img id = "sunny" src = "sun.png" height = 240 width = 350>
 
-<p> Chance of precipitation : <span id = "chanceOfRain"></span></p>
+    <p> You are in : <span id="yourCity"> </span> </p>
+    <p> Which is in : <span id = "yourState"> </span> </p>
+    <p> Temperature for today : <span id = "temperature"> </span> </p>
 
-<p> What to wear : <span id = "whatToWear"> </span></p>
+    <p> Chance of precipitation : <span id = "chanceOfRain"></span></p>
 
-</div>
+    <p> What to wear : <span id = "whatToWear"> </span></p>
 
 </body>
 

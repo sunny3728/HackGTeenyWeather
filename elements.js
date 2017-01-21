@@ -1,5 +1,4 @@
 function main(){
-
     $("#zipcodeText").keyup(function(event){
         if(event.keyCode == 13){
             $("#button").click();
@@ -29,9 +28,28 @@ function printStuff(data) {
 
     var rain = data.current_observation.precip_today_in;
     var out = "";
+
+    var rainImg = document.getElementById('rainy');
+    var cloudImg = document.getElementById('cloudy');
+    var sunImg = document.getElementById('sunny');
+
+    var weather = data.current_observation.weather;
+    if (rain > 0.01) {
+        rainImg.style.display = "block";
+        cloudImg.style.display = "none";
+        sunImg.style.display = "none";
+    } else if(weather.indexOf("Cloud") > -1 || weather.indexOf("Overcast") > -1) {
+        rainImg.style.display = "none";
+        cloudImg.style.display = "block";
+        sunImg.style.display = "none";
+    } else if (weather.indexOf("Clear") > -1 || weather.indexOf("Sunny") > -1) {
+        rainImg.style.display = "none";
+        cloudImg.style.display = "none";
+        sunImg.style.display = "block";
+    }
+
     if(rain > 0.01) {
         out = ("Yup, you're looking at about " + rain + " inches!");
-
     }
     else {
         out = "Nope!";
@@ -42,7 +60,7 @@ function printStuff(data) {
     var switchOut = "";
     switch(rain > 0.1){
         case true:
-            switchOut = "Bring an Umbrella, brah. It will be raining today."
+            switchOut = "Bring an umbrella, brah. It will be raining today."
             break;
         case false:
             switchOut = "No need to umbrella today!"

@@ -41,8 +41,17 @@ p {
 	font-size: 100%;
 }
 
-body {
-    background-color: lightblue;
+#rainy {
+    display: none;
+    margin: auto;
+}
+#cloudy {
+    display: none;
+    margin: auto;
+}
+#sunny {
+    display: none;
+    margin: auto;
 }
 
 #button {
@@ -55,9 +64,14 @@ body {
 
 #zipcodeText {
 	margin: auto;
+    text-align: center;
 }
 
-#backgroundImage {
-	background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa3%2FCumulus_clouds_panorama.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCloud&docid=gNnDLvIOuPAICM&tbnid=zeo0cxIc3e03aM%3A&vet=1&w=3568&h=1067&bih=590&biw=1280&q=clouds&ved=0ahUKEwismPPXiNTRAhVL7SYKHdHpByoQMwhuKAAwAA&iact=mrc&uact=8);
+#Zipcode {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
 }
 
