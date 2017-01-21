@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html>
 
 <head>
-<meta charset = "utf-8">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href = "bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="MainStyle.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -22,19 +15,22 @@
 
 
 <body backgroud = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_mpe6wFm_hIx42C5TW6SU0V-xMCfsyrH_ASkCvB5nOM1KZMrSQ">
+<div id="backgroundImage">
 <h1> Today's Weather! </h1>
 	Enter your zipcode: <br>
 	<input type="text" id = "zipcodeText"><br>
 
 
-<button id = "button" type="button">Click Me!</button>
-<p class=""> You are in : <span id="yourCity"> </span> </p>
+<button id = "button" type="button"> Tell me what it's like today! </button>
+<p> You are in : <span id="yourCity"> </span> </p>
 <p> Which is in : <span id = "yourState"> </span> </p>
 <p> Temperature for today : <span id = "temperature"> </span> </p>
 
 <p> Chance of precipitation : <span id = "chanceOfRain"></span></p>
 
 <p> What to wear : <span id = "whatToWear"> </span></p>
+
+</div>
 
 </body>
 
