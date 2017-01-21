@@ -1,15 +1,25 @@
 h1 {
-    font-color: blue;
+    color: darkblue;
     text-align: center;
     text-shadow: 3px 2px grey;
     background-image: ;
+    font-size: 300%;
 }
 p {
 	color: purple;
 	text-align: center;
+	font-weight: bolder;
+	font-size: 200%;
 }
 
 #yourCity {
-	
-	
+	color: green;
+	font-weight: bold;
+	font-size: 100%;
 }
+#button {
+	background-color: #f44336;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
