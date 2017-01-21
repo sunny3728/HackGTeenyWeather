@@ -1,3 +1,14 @@
+function main(){
+
+    var buttonPress = document.getElementById("button");
+    buttonPress.addEventListener("click", getData);
+
+function getData() {
+    var myZip = $("#zipcodeText").val()
+    $.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/" + myZip + ".json", "", myFunction);
+
+}
+
 function myFunction(data) {
     var city = data.location.city;
     var state = data.location.state;
@@ -30,6 +41,7 @@ function printStuff(data) {
 
 
 }
+}
 
-$.getJSON("http://api.wunderground.com/api/b819c4c776539987/geolookup/q/30332.json", "", myFunction);
+$(document).ready(main);
 
