@@ -31,12 +31,24 @@ function printStuff(data) {
     var out = "";
     if(rain > 0.01) {
         out = ("Yup, you're looking at about " + rain + " inches!");
+
     }
     else {
         out = "Nope!";
     }
 
     $("#chanceOfRain").text(out);
+
+    var switchOut = "";
+    switch(rain > 0.1){
+        case true:
+            switchOut = "Bring an Umbrella, brah. It will be raining today."
+            break;
+        case false:
+            switchOut = "No need to umbrella today!"
+            break;
+    }
+    $("#whatToWear").text(switchOut);
 
 
 }
