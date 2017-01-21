@@ -1,11 +1,20 @@
-h1 {
-    color: darkblue;
-    text-align: center;
-    background-image: url("cloud.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px 80px;
-    font-size: 300%;
+
+
+.cloudimage {
+
+  position: relative;
+  top: -60px;
+  left: 150px;
+  transform: scale(.4, .4);
+}
+
+h1{
+  position: absolute;
+  top: 55px;
+   left: 7px;
+   font-size: 100px;
+   color: darkblue;
+
 }
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -60,4 +69,3 @@ body {
 #backgroundImage {
 	background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fa3%2FCumulus_clouds_panorama.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCloud&docid=gNnDLvIOuPAICM&tbnid=zeo0cxIc3e03aM%3A&vet=1&w=3568&h=1067&bih=590&biw=1280&q=clouds&ved=0ahUKEwismPPXiNTRAhVL7SYKHdHpByoQMwhuKAAwAA&iact=mrc&uact=8);
 }
-
