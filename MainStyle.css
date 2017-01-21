@@ -1,10 +1,15 @@
 h1 {
-    font-color: darkblue;
+    font-color: blue;
     text-align: center;
     text-shadow: 3px 2px grey;
     background-image: ;
 }
-body {
+p {
 	color: purple;
+	text-align: center;
+}
 
+#yourCity {
+	
+	
 }
