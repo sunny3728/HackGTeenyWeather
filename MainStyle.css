@@ -1,20 +1,11 @@
-
-
-.cloudimage {
-
-  position: relative;
-  top: -60px;
-  left: 150px;
-  transform: scale(.4, .4);
-}
-
-h1{
-  position: absolute;
-  top: 55px;
-   left: 7px;
-   font-size: 100px;
-   color: darkblue;
-
+h1 {
+    color: darkblue;
+    text-align: center;
+    background-image: url("cloud.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 80px;
+    font-size: 300%;
 }
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -22,7 +13,6 @@ p {
 	font-weight: bolder;
 	font-size: 200%;
 }
-
 
 #yourCity {
 	color: black;
@@ -83,3 +73,4 @@ p {
 body {
     background-color: lightblue;
 }
+
