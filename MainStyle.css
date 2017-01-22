@@ -11,33 +11,33 @@ p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: purple;
 	font-weight: bolder;
-	font-size: 200%;
+	font-size: 150%;
 }
 
 #yourCity {
 	color: black;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 90%;
 }
 #yourState {
 	color: black;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 90%;
 }
 #temperature {
 	color: black;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 90%;
 }
 #chanceOfRain {
 	color: black;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 90%;
 }
 #whatToWear {
 	color: black;
 	font-weight: bold;
-	font-size: 100%;
+	font-size: 90%;
 }
 
 #rainy {
