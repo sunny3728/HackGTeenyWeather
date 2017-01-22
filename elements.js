@@ -46,6 +46,10 @@ function printStuff(data) {
         rainImg.style.display = "none";
         cloudImg.style.display = "none";
         sunImg.style.display = "block";
+    } else {
+        rainImg.style.display = "none";
+        cloudImg.style.display = "block";
+        sunImg.style.display = "none";
     }
 
     if(rain > 0.01) {
