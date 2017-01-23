@@ -67,7 +67,7 @@ function printStuff(data) {
             switchOut = "Bring an umbrella, brah. It will be raining today."
             break;
         case false:
-            switchOut = "No need to umbrella today!"
+            switchOut = "No need for an umbrella today!"
             break;
     }
     $("#whatToWear").text(switchOut);
